@@ -4,6 +4,14 @@
 First run "npm install" in a terminal from the root map.
 Then run "npm run dev" to start the server on a local host.
 
+## Components and features
+
+### Components
+- "Greeting.jsx": Simple component that returns a h2 element containing a greeting with a parameter for a name.
+
+### Features
+- App.jsx imports the aforementioned greeting component and the useState React hook. These are used to display a simple greeting followed by a button utilizing the useState hook to display a simple counter that increments by 1 every time it is clicked.
+
 ## Dependencies
 - "react": "^19.2.8",
 - "react-dom": "^19.2.8"
