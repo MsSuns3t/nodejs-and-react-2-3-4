@@ -1,16 +1,20 @@
-# React + Vite
+# NodeJS and React Module assignment 2 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to start
+First run "npm install" in a terminal from the root map.
+Then run "npm run dev" to start the server on a local host.
 
-Currently, two official plugins are available:
+## Dependencies
+- "react": "^19.2.8",
+- "react-dom": "^19.2.8"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## DevDependencies
+- "@eslint/js": "^10.0.1",
+- "@types/react": "^19.2.18",
+- "@types/react-dom": "^19.2.4",
+- "@vitejs/plugin-react": "^6.1.0",
+- "eslint": "^10.9.0",
+- "eslint-plugin-react-hooks": "^7.1.1",
+- "eslint-plugin-react-refresh": "^0.5.4",
+- "globals": "^17.11.0",
+- "vite": "^8.2.2"
