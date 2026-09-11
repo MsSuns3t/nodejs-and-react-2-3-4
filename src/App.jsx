@@ -1,5 +1,6 @@
 import Greeting from "./Greeting";
 import { useState } from "react";
+import Card from "./components/Card"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,23 @@ function App() {
       <button onClick={() => setCount(count + 1)}>
         Je hebt {count} keer geklikt
       </button>
+      <div class="cards-holder">
+        <Card
+        image="https://placehold.co/400x300"
+        title="voorbeeld card"
+        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        />
+                <Card
+        image="https://placehold.co/400x300"
+        title="voorbeeld card"
+        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        />
+                <Card
+        image="https://placehold.co/400x300"
+        title="voorbeeld card"
+        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        />
+      </div>
     </div>
     
   );
