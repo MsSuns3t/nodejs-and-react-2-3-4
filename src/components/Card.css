@@ -4,8 +4,13 @@
     height: 370px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 6px 6px lightgrey;
-    margin: 12px;
+    box-shadow: 0 6px 6px lightgrey;
+    margin: 25px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 16px 20px rgb(197, 197, 197);
 }
 
 .card-image {
