@@ -1,4 +1,4 @@
-# NodeJS and React Module assignment 2 
+# NodeJS and React Module assignment 2 & 3
 
 ## How to start
 First run "npm install" in a terminal from the root map.
@@ -8,9 +8,10 @@ Then run "npm run dev" to start the server on a local host.
 
 ### Components
 - "Greeting.jsx": Simple component that returns a h2 element containing a greeting with a parameter for a name.
+- "Card.jsx": Simple card component displaying an image, title, description and button with an onClick Alert.
 
 ### Features
-- App.jsx imports the aforementioned greeting component and the useState React hook. These are used to display a simple greeting followed by a button utilizing the useState hook to display a simple counter that increments by 1 every time it is clicked.
+- App.jsx imports the aforementioned greeting component and the useState React hook. These are used to display a simple greeting followed by a button utilizing the useState hook to display a simple counter that increments by 1 every time it is clicked. Below is shown a collection of Card components which can be customized with a custom image, title, description and alert.
 
 ## Dependencies
 - "react": "^19.2.8",
