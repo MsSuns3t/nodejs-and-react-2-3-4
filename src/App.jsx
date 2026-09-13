@@ -4,6 +4,7 @@ import Card from "./components/Card"
 
 function App() {
   const [count, setCount] = useState(0);
+  const greeting = useState(true);
 
   return (
     <div>
@@ -14,19 +15,22 @@ function App() {
       </button>
       <div class="cards-holder">
         <Card
-        image="https://placehold.co/400x300"
-        title="voorbeeld card"
-        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+          image="https://placehold.co/300x180" 
+          title="Vakantie aan Zee" 
+          description="Geniet van zon, zee en strand in deze prachtige kustbestemming."
+          onMoreInfo={() => alert("Alert met meer info ofzo idk")}
         />
-                <Card
-        image="https://placehold.co/400x300"
-        title="voorbeeld card"
-        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        <Card
+          image="https://placehold.co/400x300"
+          title="Stedentrip Parijs"
+          description="Ontdek de lichtstad en bezoek iconische bezienswaardigheden."
+          onMoreInfo={() => alert("Alert met meer info ofzo idk")}
         />
-                <Card
-        image="https://placehold.co/400x300"
-        title="voorbeeld card"
-        description="Lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        <Card
+          image="https://placehold.co/400x300"
+          title="Avontuur in de Bergen"
+          description="Ga hiken in de bergen en geniet van adembenemende uitzichten."
+          onMoreInfo={() => alert("Alert met meer info ofzo idk")}
         />
       </div>
     </div>
