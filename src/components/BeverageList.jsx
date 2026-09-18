@@ -14,9 +14,9 @@ export default function BeverageList(){
  }}
 
   const [beverages, setBeverages] = useState([
-     {id: 0, beverage: "Cola", brand: "cocaCola"},
-     {id: 1, beverage: "Sprite", brand: "spriteInc"},
-     {id: 2, beverage: "Sinas", brand: "cocaCola"}
+     {id: 0, beverage: "Cola", brand: "cocaCola", available: true},
+     {id: 1, beverage: "Sprite", brand: "spriteInc", available: false},
+     {id: 2, beverage: "Sinas", brand: "cocaCola", available: true}
   ]);
 
     return (
@@ -30,7 +30,7 @@ export default function BeverageList(){
         <ul className="beverageList">
             {filterByBrand(beverages, brand).map(beverage =>(
                 <li key={beverage.id}>
-                {beverage.beverage}
+                {beverage.beverage} {beverage.available ? "(Beschikbaar!)" : "(Uitverkocht!)"}
                 </li>
             ))}
         </ul>
