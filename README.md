@@ -1,4 +1,4 @@
-# NodeJS and React Module assignment 2 & 3
+# NodeJS and React Module assignment 2, 3 & 4
 
 ## How to start
 First run "npm install" in a terminal from the root map.
