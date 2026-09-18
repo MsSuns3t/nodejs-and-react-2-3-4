@@ -1,8 +1,10 @@
-import Greeting from "./Greeting";
+import Greeting from "./components/Greeting";
+import BeverageList from "./components/BeverageList";
 import { useState } from "react";
 import Card from "./components/Card"
 
 function App() {
+
   const [count, setCount] = useState(0);
   const greeting = useState(true);
 
@@ -13,7 +15,7 @@ function App() {
       <button onClick={() => setCount(count + 1)}>
         Je hebt {count} keer geklikt
       </button>
-      <div class="cards-holder">
+      <div className="cards-holder">
         <Card
           image="https://placehold.co/300x180" 
           title="Vakantie aan Zee" 
@@ -33,8 +35,8 @@ function App() {
           onMoreInfo={() => alert("Alert met meer info ofzo idk")}
         />
       </div>
+      <BeverageList />
     </div>
-    
   );
 }
 
